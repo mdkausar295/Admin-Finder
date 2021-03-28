@@ -19,13 +19,13 @@ print ('''\033[1;34m______AT Squad
                           \033[37mMade with \033[91m<3\033[37m By D3V\033[1;m''')
 
 print ('''\n  I am not responsible for your shit and if you get some error while
- running AT Squad, there are good chances that target isn't responding.\n''')
+ running Admin-Finder, there are good chances that target isn't responding.\n''')
 print ('\033[1;31m--------------------------------------------------------------------------\033[1;m\n')
 
 try:
     target = target.replace('https://', '') #Removes https://
 except:
-    print ('\033[1;31m[-]\033[1;m -u argument is not supplied. Enter python breacher -h for help')
+    print ('\033[1;31m[-]\033[1;m -u argument is not supplied. Enter python Admin-Finder -h for help')
     quit()
 
 target = target.replace('http://', '') #and http:// from the url
