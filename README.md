@@ -1,4 +1,4 @@
-# Breacher
+# Admin-Finder
 A script to find admin login pages and EAR vulnerabilites.
 
 #### Features
@@ -12,22 +12,19 @@ A script to find admin login pages and EAR vulnerabilites.
 ### Usages
 - Check all paths with php extension
 ```
-python breacher -u example.com --type php
+python Admin-Finder -u example.com --type php
 ```
 - Check all paths with php extension with threads
 ```
-python breacher -u example.com --type php --fast
+python Admin-Finder -u example.com --type php --fast
 ```
 - Check all paths without threads
 ```
-python breacher -u example.com
+python Admin-Finder -u example.com
 ```
 - Adding a custom path. For example if you want all paths to start with /data (example.com/data/...) you can do this:
 ```
-python breacher -u example.com --path /data
+python Admin-Finder -u example.com --path /data
 ```
-<b>Note: </b> When you specify an extension using <b>--type</b> option, Breacher includes paths of that extension as well as paths with no extensions like <b>/admin/login</b>
+<b>Note: </b> When you specify an extension using <b>--type</b> option, Admin-Finder includes paths of that extension as well as paths with no extensions like <b>/admin/login</b>
 
-#### Video Demo
-
-[![Breacher](https://i.imgur.com/D9my9A5.png)](https://youtu.be/BEpt5JmcWPk)
